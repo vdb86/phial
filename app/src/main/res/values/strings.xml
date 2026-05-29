@@ -3,4 +3,7 @@
     <string name="app_name">Phial</string>
     <string name="shortcut_settings_short">Settings</string>
     <string name="shortcut_settings_long">Open Settings</string>
+    <string name="picker_title">Pick a colour</string>
+    <string name="picker_ok">OK</string>
+    <string name="picker_cancel">Cancel</string>
 </resources>

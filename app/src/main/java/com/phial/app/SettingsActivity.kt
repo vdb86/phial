@@ -8,8 +8,6 @@ import android.widget.Switch
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
-import com.skydoves.colorpickerview.ColorPickerDialog
-import com.skydoves.colorpickerview.listeners.ColorEnvelopeListener
 
 class SettingsActivity : AppCompatActivity() {
 
@@ -92,19 +90,16 @@ class SettingsActivity : AppCompatActivity() {
     }
 
     private fun showColorPicker(colorButtons: Map<Int, ColorMode>) {
-        ColorPickerDialog.Builder(this)
-            .setTitle("Pick a colour")
-            .setPreferenceName("custom_color_picker")
-            .setPositiveButton("Select", ColorEnvelopeListener { envelope, _ ->
-                Prefs.setCustomColor(this, envelope.color)
+        ColourPickerDialog(
+            context = this,
+            initialColor = Prefs.customColor(this),
+            onColorSelected = { color ->
+                Prefs.setCustomColor(this, color)
                 Prefs.setColorMode(this, ColorMode.CUSTOM.name)
                 updateCustomSwatch()
                 updateColorSelection(colorButtons)
-            })
-            .setNegativeButton("Cancel") { dialog, _ -> dialog.dismiss() }
-            .attachAlphaSlideBar(false)
-            .attachBrightnessSlideBar(true)
-            .show()
+            }
+        ).show()
     }
 
     private fun updateCustomSwatch() {
