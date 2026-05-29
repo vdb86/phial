@@ -11,7 +11,7 @@
 ---
 
 *"May it be a light to you in dark places, when all other lights go out."*
-*— Galadriel, The Fellowship of the Ring*
+*- Galadriel, The Fellowship of the Ring*
 
 *Dedicated to my wife Ana.*
 
@@ -19,18 +19,18 @@
 
 ## What it does
 
-Phial turns your screen into a bright light source. Open it from the lock screen and your phone wakes up and lights up immediately — no unlocking required. Close it and it disappears from recent apps without a trace.
+Phial turns your screen into a bright light source. Open it from the lock screen and your phone wakes up and lights up immediately - no unlocking required. Close it and it disappears from recent apps without a trace.
 
 ## Features
 
-- **Lock screen** — wakes the screen and shows over the lock screen without unlocking
-- **Brightness control** — slider adjusts brightness in real time; volume buttons work too
-- **Fade in** — smooth brightness transition when the app opens
-- **Colour modes** — White, Warm, Amber, Red, and a fully custom colour picker
-- **Camera flashlight** — shake to switch to the LED torch, with brightness control on supported devices; shake again to return
-- **Auto-off timer** — closes automatically after 1, 2, 5, or 10 minutes
-- **No recent apps entry** — disappears from the app switcher when closed
-- **Dark mode** — settings screen follows the system theme
+- **Lock screen** - wakes the screen and shows over the lock screen without unlocking
+- **Brightness control** - slider adjusts brightness in real time; volume buttons work too
+- **Fade in** - smooth brightness transition when the app opens
+- **Colour modes** - White, Warm, Amber, Red, and a fully custom colour picker
+- **Camera flashlight** - shake to switch to the LED torch, with brightness control on supported devices; shake again to return
+- **Auto-off timer** - closes automatically after 1, 2, 5, or 10 minutes
+- **No recent apps entry** - disappears from the app switcher when closed
+- **Dark mode** - settings screen follows the system theme
 - **No ads, no tracking, no internet access**
 
 ## Screenshots
