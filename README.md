@@ -15,6 +15,8 @@
 
 *Dedicated to my wife Ana.*
 
+*Thank you [HumanMade](https://humanmade.com/) and [Altis](https://www.altis-dxp.com/) for making the development of this app possible.*
+
 ---
 
 ## What it does
